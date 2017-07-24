@@ -1,0 +1,30 @@
+/* Reset */
+@import '_mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  background-color: #eee;
+  height: 100%;
+}
+
+body {
+  padding: 50px;
+
+  #wrapper {
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px -5px #000;
+  }
+}
